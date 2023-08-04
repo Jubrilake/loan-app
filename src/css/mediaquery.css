@@ -1,0 +1,53 @@
+
+/* tablet */
+@media (max-width:900px){
+    .right h1{
+        font-size:45px;
+        margin-bottom: 10px;
+        }
+        .right p{
+            font-size:16px; 
+           
+            }
+}
+
+
+
+
+/* mobile */
+@media (max-width: 600px){
+    .btn-primary{
+        padding:8px  !important;
+        font-size: 14px !important;
+        text-align: center;
+         
+    }
+
+    #header{
+       padding: 20px;
+    }
+    #header .container.header-grid{
+        display: block;   
+    }
+    
+    .right h1{
+        font-size:30px;
+        }
+        .right p{
+            font-size:14px; 
+            }
+            .left{
+                padding: 25px;
+                margin-top: 20px;
+            }
+            td, th {
+               font-size: 14px;
+              }
+
+              td:first-child,th:first-child{
+                display: none;
+              }
+              .repayment-content h1{
+                font-size: 20px;
+              }
+}

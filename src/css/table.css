@@ -5,9 +5,7 @@
 }
 
 table{
-    width:100%;
- 
-    
+    width:100%;  
 }
 td, th {
     border: 1px solid #dddddd;
@@ -18,3 +16,4 @@ td, th {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+  

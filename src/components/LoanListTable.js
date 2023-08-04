@@ -12,9 +12,6 @@ const LoanListTable = () => {
     const {getAllLoans} = useSelector(state => state.loan)
     
     let loans = []
-
-  
-   
     
     if(getAllLoans && getAllLoans.result && getAllLoans.data.length){
          loans = getAllLoans.data.map(loan => {

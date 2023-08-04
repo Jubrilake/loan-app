@@ -1,7 +1,9 @@
 @import "./css/base.css";
 @import "./css/hero.css";
+
 @import "./css/modal.css";
 @import "./css/nav.css";
 @import "./css/repayment.css";
 @import "./css/table.css";
 @import "./css//utilities.css";
+@import "./css/mediaquery.css";
