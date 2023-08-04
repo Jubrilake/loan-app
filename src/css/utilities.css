@@ -1,0 +1,32 @@
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding:0px 10px;
+}
+.loader{  
+    position: fixed;
+    top:20px;
+    left:50px;
+    width: 100%;
+    z-index: 10000;
+    margin: 0 auto;
+    text-align: center;
+   
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+/* .loader img {
+   
+} */
+.btn-primary{
+    cursor: pointer;
+    border:none;
+    display: inline-block;
+    background-color: #051760;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 3px;
+}
